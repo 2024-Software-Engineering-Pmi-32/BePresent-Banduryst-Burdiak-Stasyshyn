@@ -1,0 +1,18 @@
+﻿<Window x:Class="bepresent_wpf.Presentation.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Register" Height="200" Width="300">
+    <Grid>
+        <Grid Margin="10">
+            <TextBox x:Name="UsernameTextBox" VerticalAlignment="Top" TextChanged="UsernameTextBox_TextChanged"/>
+            <TextBlock x:Name="UsernamePlaceholder" Text="Username" VerticalAlignment="Top" Margin="5,0,0,0" 
+                       Foreground="Gray" IsHitTestVisible="False" Opacity="1"/>
+        </Grid>
+        <Grid Margin="10,40,10,0">
+            <PasswordBox x:Name="PasswordBox" VerticalAlignment="Top" PasswordChanged="PasswordBox_PasswordChanged"/>
+            <TextBlock x:Name="PasswordPlaceholder" Text="Password" VerticalAlignment="Top" Margin="5,0,0,0" 
+                       Foreground="Gray" IsHitTestVisible="False" Opacity="1"/>
+        </Grid>
+        <Button Content="Register" Click="RegisterButton_Click" VerticalAlignment="Top" Margin="10,80,10,0"/>
+    </Grid>
+</Window>

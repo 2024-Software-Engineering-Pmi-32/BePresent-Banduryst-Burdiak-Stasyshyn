@@ -1,0 +1,20 @@
+﻿<Window x:Class="bepresent_wpf.Presentation.AddGiftWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Gift" Height="200" Width="300">
+    <Grid>
+        <Grid>
+            <TextBox x:Name="NameTextBox" VerticalAlignment="Top" Margin="10" TextChanged="NameTextBox_TextChanged"/>
+            <TextBlock x:Name="NamePlaceholder" Text="Gift Name" VerticalAlignment="Top" Margin="10" Foreground="Gray"
+                       IsHitTestVisible="False" Visibility="Visible"/>
+        </Grid>
+
+        <Grid Margin="0,40,0,0">
+            <TextBox x:Name="DescriptionTextBox" VerticalAlignment="Top" Margin="10" TextChanged="DescriptionTextBox_TextChanged"/>
+            <TextBlock x:Name="DescriptionPlaceholder" Text="Description" VerticalAlignment="Top" Margin="10" Foreground="Gray"
+                       IsHitTestVisible="False" Visibility="Visible"/>
+        </Grid>
+
+        <Button Content="Add Gift" Click="AddGiftButton_Click" VerticalAlignment="Top" Margin="10,80,10,0"/>
+    </Grid>
+</Window>
