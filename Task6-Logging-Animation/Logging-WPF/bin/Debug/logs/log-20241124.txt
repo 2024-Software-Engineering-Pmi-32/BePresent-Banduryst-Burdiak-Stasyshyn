@@ -1,0 +1,274 @@
+2024-11-24 19:39:18.998 +02:00 [INF] Application started
+2024-11-24 19:39:21.460 +02:00 [INF] LoginPage initialized.
+2024-11-24 19:39:23.412 +02:00 [DBG] UsernameTextBox text changed: U
+2024-11-24 19:39:23.704 +02:00 [DBG] UsernameTextBox text changed: Us
+2024-11-24 19:39:23.794 +02:00 [DBG] UsernameTextBox text changed: Usd
+2024-11-24 19:39:23.837 +02:00 [DBG] UsernameTextBox text changed: Usde
+2024-11-24 19:39:24.352 +02:00 [DBG] UsernameTextBox text changed: Usder
+2024-11-24 19:39:24.587 +02:00 [DBG] UsernameTextBox text changed: Usde
+2024-11-24 19:39:24.737 +02:00 [DBG] UsernameTextBox text changed: Usd
+2024-11-24 19:39:24.846 +02:00 [DBG] UsernameTextBox text changed: Us
+2024-11-24 19:39:25.040 +02:00 [DBG] UsernameTextBox text changed: Use
+2024-11-24 19:39:25.191 +02:00 [DBG] UsernameTextBox text changed: User
+2024-11-24 19:39:25.439 +02:00 [DBG] UsernameTextBox text changed: User1
+2024-11-24 19:39:27.659 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:39:27.991 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:39:28.210 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:39:28.355 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:39:28.569 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:39:28.739 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:39:28.889 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:39:29.103 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:39:29.433 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:39:30.852 +02:00 [INF] Login attempt with username: User1
+2024-11-24 19:39:33.219 +02:00 [INF] User User1 successfully logged in with user ID: 1
+2024-11-24 19:39:34.346 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:40:38.871 +02:00 [INF] Application exited
+2024-11-24 19:44:58.855 +02:00 [INF] Application started
+2024-11-24 19:45:04.089 +02:00 [INF] LoginPage initialized.
+2024-11-24 19:45:16.635 +02:00 [DBG] UsernameTextBox text changed: U
+2024-11-24 19:45:16.912 +02:00 [DBG] UsernameTextBox text changed: Us
+2024-11-24 19:45:17.060 +02:00 [DBG] UsernameTextBox text changed: Use
+2024-11-24 19:45:17.215 +02:00 [DBG] UsernameTextBox text changed: User
+2024-11-24 19:45:18.005 +02:00 [DBG] UsernameTextBox text changed: User1
+2024-11-24 19:45:20.107 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:20.300 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:20.416 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:20.675 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:20.939 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:21.174 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:21.569 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:21.803 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:22.461 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:23.328 +02:00 [INF] Login attempt with username: User1
+2024-11-24 19:45:25.703 +02:00 [INF] User User1 successfully logged in with user ID: 1
+2024-11-24 19:45:26.806 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:45:51.428 +02:00 [INF] Application exited
+2024-11-24 19:49:56.822 +02:00 [INF] Application started
+2024-11-24 19:49:58.972 +02:00 [INF] LoginPage initialized.
+2024-11-24 19:50:00.595 +02:00 [DBG] UsernameTextBox text changed: Г
+2024-11-24 19:50:00.860 +02:00 [DBG] UsernameTextBox text changed: Гі
+2024-11-24 19:50:01.023 +02:00 [DBG] UsernameTextBox text changed: Гіу
+2024-11-24 19:50:01.203 +02:00 [DBG] UsernameTextBox text changed: Гіук
+2024-11-24 19:50:01.774 +02:00 [DBG] UsernameTextBox text changed: Гіу
+2024-11-24 19:50:01.929 +02:00 [DBG] UsernameTextBox text changed: Гі
+2024-11-24 19:50:02.046 +02:00 [DBG] UsernameTextBox text changed: Г
+2024-11-24 19:50:02.166 +02:00 [DBG] UsernameTextBox text changed: 
+2024-11-24 19:50:03.698 +02:00 [DBG] UsernameTextBox text changed: U
+2024-11-24 19:50:03.999 +02:00 [DBG] UsernameTextBox text changed: Us
+2024-11-24 19:50:04.163 +02:00 [DBG] UsernameTextBox text changed: Use
+2024-11-24 19:50:04.348 +02:00 [DBG] UsernameTextBox text changed: User
+2024-11-24 19:50:05.037 +02:00 [DBG] UsernameTextBox text changed: Userq
+2024-11-24 19:50:05.946 +02:00 [DBG] UsernameTextBox text changed: User
+2024-11-24 19:50:06.101 +02:00 [DBG] UsernameTextBox text changed: User1
+2024-11-24 19:50:07.208 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:07.518 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:07.843 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:08.016 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:08.192 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:08.492 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:08.745 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:09.020 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:09.440 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:11.025 +02:00 [INF] Login attempt with username: User1
+2024-11-24 19:50:13.997 +02:00 [INF] User User1 successfully logged in with user ID: 1
+2024-11-24 19:50:15.451 +02:00 [INF] Initializing BoardsPage for UserId 1
+2024-11-24 19:50:15.555 +02:00 [INF] Loaded 2 boards for UserId 1
+2024-11-24 19:50:15.555 +02:00 [INF] Boards loaded successfully for UserId 1
+2024-11-24 19:50:15.555 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:50:16.655 +02:00 [INF] Board selected: 27 - birthday board
+2024-11-24 19:50:16.687 +02:00 [INF] Loaded 2 gifts for BoardId 27
+2024-11-24 19:50:18.427 +02:00 [INF] Board selected: 26 - qwertyuiop
+2024-11-24 19:50:18.437 +02:00 [INF] Loaded 2 gifts for BoardId 26
+2024-11-24 19:50:18.973 +02:00 [INF] Board selected: 27 - birthday board
+2024-11-24 19:50:18.977 +02:00 [INF] Loaded 2 gifts for BoardId 27
+2024-11-24 19:50:27.197 +02:00 [INF] Attempting to add new board with name: st nicolas day board for UserId 1
+2024-11-24 19:50:43.612 +02:00 [INF] Board created successfully: st nicolas day board for UserId 1
+2024-11-24 19:50:43.620 +02:00 [INF] Cleared board details.
+2024-11-24 19:50:43.620 +02:00 [INF] Board selection cleared.
+2024-11-24 19:50:43.620 +02:00 [INF] Loaded 3 boards for UserId 1
+2024-11-24 19:50:45.341 +02:00 [INF] Board selected: 28 - st nicolas day board
+2024-11-24 19:50:45.346 +02:00 [INF] Loaded 0 gifts for BoardId 28
+2024-11-24 19:50:47.193 +02:00 [INF] Application exited
+2024-11-24 19:53:19.301 +02:00 [INF] Application started
+2024-11-24 19:53:21.607 +02:00 [INF] LoginPage initialized.
+2024-11-24 19:53:23.662 +02:00 [DBG] UsernameTextBox text changed: Г
+2024-11-24 19:53:23.833 +02:00 [DBG] UsernameTextBox text changed: Гі
+2024-11-24 19:53:23.976 +02:00 [DBG] UsernameTextBox text changed: Гіу
+2024-11-24 19:53:24.163 +02:00 [DBG] UsernameTextBox text changed: Гіук
+2024-11-24 19:53:24.753 +02:00 [DBG] UsernameTextBox text changed: Гіу
+2024-11-24 19:53:24.996 +02:00 [DBG] UsernameTextBox text changed: Гі
+2024-11-24 19:53:25.207 +02:00 [DBG] UsernameTextBox text changed: Г
+2024-11-24 19:53:25.466 +02:00 [DBG] UsernameTextBox text changed: 
+2024-11-24 19:53:26.414 +02:00 [DBG] UsernameTextBox text changed: u
+2024-11-24 19:53:27.004 +02:00 [DBG] UsernameTextBox text changed: us
+2024-11-24 19:53:27.139 +02:00 [DBG] UsernameTextBox text changed: use
+2024-11-24 19:53:27.690 +02:00 [DBG] UsernameTextBox text changed: us
+2024-11-24 19:53:27.835 +02:00 [DBG] UsernameTextBox text changed: u
+2024-11-24 19:53:27.939 +02:00 [DBG] UsernameTextBox text changed: 
+2024-11-24 19:53:28.763 +02:00 [DBG] UsernameTextBox text changed: U
+2024-11-24 19:53:29.001 +02:00 [DBG] UsernameTextBox text changed: Us
+2024-11-24 19:53:29.146 +02:00 [DBG] UsernameTextBox text changed: Use
+2024-11-24 19:53:29.336 +02:00 [DBG] UsernameTextBox text changed: User
+2024-11-24 19:53:29.493 +02:00 [DBG] UsernameTextBox text changed: User1
+2024-11-24 19:53:31.466 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:31.795 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:32.101 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:32.290 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:32.506 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:32.736 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:33.033 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:33.348 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:33.897 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:35.273 +02:00 [INF] Login attempt with username: User1
+2024-11-24 19:53:37.669 +02:00 [INF] User User1 successfully logged in with user ID: 1
+2024-11-24 19:53:38.895 +02:00 [INF] Initializing BoardsPage for UserId 1
+2024-11-24 19:53:38.994 +02:00 [INF] Loaded 3 boards for UserId 1
+2024-11-24 19:53:38.994 +02:00 [INF] Boards loaded successfully for UserId 1
+2024-11-24 19:53:38.994 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 19:53:39.878 +02:00 [INF] Board selected: 26 - qwertyuiop
+2024-11-24 19:53:39.909 +02:00 [INF] Loaded 2 gifts for BoardId 26
+2024-11-24 19:53:42.571 +02:00 [INF] Board selected: 27 - birthday board
+2024-11-24 19:53:42.581 +02:00 [INF] Loaded 2 gifts for BoardId 27
+2024-11-24 19:53:44.814 +02:00 [INF] Board selected: 28 - st nicolas day board
+2024-11-24 19:53:44.817 +02:00 [INF] Loaded 0 gifts for BoardId 28
+2024-11-24 19:53:47.792 +02:00 [INF] Attempting to add gift to BoardId 28: sdfgh
+2024-11-24 19:53:50.827 +02:00 [INF] Gift added successfully: sdfgh to BoardId 28
+2024-11-24 19:53:50.830 +02:00 [INF] Loaded 1 gifts for BoardId 28
+2024-11-24 19:53:53.787 +02:00 [INF] Attempting to add gift to BoardId 28: kytrewerthjk
+2024-11-24 19:53:56.058 +02:00 [INF] Gift added successfully: kytrewerthjk to BoardId 28
+2024-11-24 19:53:56.060 +02:00 [INF] Loaded 2 gifts for BoardId 28
+2024-11-24 19:53:59.671 +02:00 [INF] Attempting to add gift to BoardId 28: sjjreertyu
+2024-11-24 19:54:03.290 +02:00 [INF] Gift added successfully: sjjreertyu to BoardId 28
+2024-11-24 19:54:03.295 +02:00 [INF] Loaded 3 gifts for BoardId 28
+2024-11-24 19:54:13.576 +02:00 [INF] Application exited
+2024-11-24 20:00:15.422 +02:00 [INF] Application started
+2024-11-24 20:00:34.137 +02:00 [INF] Attempting to register user: Yuliaaana
+2024-11-24 20:00:36.418 +02:00 [ERR] An error occurred during registration for Yuliaaana
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Npgsql.PostgresException: 23502: null значення в стовпці "email" відношення "users" порушує not-null обмеження
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 942
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 973
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__44.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 306
+   at Npgsql.NpgsqlCommand.<ExecuteReaderAsync>d__102.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1189
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1059
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1035
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded) in /home/runner/work/efcore.pg/efcore.pg/src/EFCore.PG/Storage/Internal/NpgsqlExecutionStrategy.cs:line 37
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at bepresent_wpf.DAL.UserRepository.RegisterUser(User user) in C:\Users\Юліана\source\repos\be present\bepresent_wpf_stylecop2\DAL\UserRepository.cs:line 16
+   at bepresent_wpf.BLL.UserService.Register(String username, String passwordH) in C:\Users\Юліана\source\repos\be present\bepresent_wpf_stylecop2\BLL\UserService.cs:line 17
+   at bepresent_wpf.Presentation.RegistrationWindow.RegisterButton_Click(Object sender, RoutedEventArgs e) in C:\Users\Юліана\source\repos\be present\bepresent_wpf_stylecop2\Presentation\RegistrationWindow.xaml.cs:line 53
+2024-11-24 20:00:40.576 +02:00 [INF] Attempting to register user: Yuliaaana
+2024-11-24 20:00:40.629 +02:00 [ERR] An error occurred during registration for Yuliaaana
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Npgsql.PostgresException: 23502: null значення в стовпці "email" відношення "users" порушує not-null обмеження
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 942
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 973
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__44.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 306
+   at Npgsql.NpgsqlCommand.<ExecuteReaderAsync>d__102.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1189
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1059
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1035
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded) in /home/runner/work/efcore.pg/efcore.pg/src/EFCore.PG/Storage/Internal/NpgsqlExecutionStrategy.cs:line 37
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at bepresent_wpf.DAL.UserRepository.RegisterUser(User user) in C:\Users\Юліана\source\repos\be present\bepresent_wpf_stylecop2\DAL\UserRepository.cs:line 16
+   at bepresent_wpf.BLL.UserService.Register(String username, String passwordH) in C:\Users\Юліана\source\repos\be present\bepresent_wpf_stylecop2\BLL\UserService.cs:line 17
+   at bepresent_wpf.Presentation.RegistrationWindow.RegisterButton_Click(Object sender, RoutedEventArgs e) in C:\Users\Юліана\source\repos\be present\bepresent_wpf_stylecop2\Presentation\RegistrationWindow.xaml.cs:line 53
+2024-11-24 20:02:04.478 +02:00 [INF] Application started
+2024-11-24 20:02:27.430 +02:00 [INF] Attempting to register user: Yuliana
+2024-11-24 20:02:31.369 +02:00 [INF] User Yuliana registered successfully.
+2024-11-24 20:02:31.414 +02:00 [INF] Application exited
+2024-11-24 20:02:38.728 +02:00 [INF] Application started
+2024-11-24 20:02:40.715 +02:00 [INF] LoginPage initialized.
+2024-11-24 20:02:42.206 +02:00 [DBG] UsernameTextBox text changed: Y
+2024-11-24 20:02:42.369 +02:00 [DBG] UsernameTextBox text changed: Yu
+2024-11-24 20:02:42.820 +02:00 [DBG] UsernameTextBox text changed: Yul
+2024-11-24 20:02:43.041 +02:00 [DBG] UsernameTextBox text changed: Yuli
+2024-11-24 20:02:43.136 +02:00 [DBG] UsernameTextBox text changed: Yulia
+2024-11-24 20:02:43.267 +02:00 [DBG] UsernameTextBox text changed: Yulian
+2024-11-24 20:02:43.368 +02:00 [DBG] UsernameTextBox text changed: Yuliana
+2024-11-24 20:02:46.552 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:48.663 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:49.132 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:49.472 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:49.630 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:49.831 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:50.289 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:50.488 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:50.744 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:51.389 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:51.624 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:51.858 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:52.117 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:02:53.277 +02:00 [INF] Login attempt with username: Yuliana
+2024-11-24 20:02:55.625 +02:00 [INF] User Yuliana successfully logged in with user ID: 33
+2024-11-24 20:02:56.691 +02:00 [INF] Initializing BoardsPage for UserId 33
+2024-11-24 20:02:56.753 +02:00 [INF] Loaded 0 boards for UserId 33
+2024-11-24 20:02:56.754 +02:00 [INF] Boards loaded successfully for UserId 33
+2024-11-24 20:02:56.754 +02:00 [DBG] PasswordBox content changed.
+2024-11-24 20:03:06.985 +02:00 [INF] Attempting to add new board with name: birthday board for UserId 33
+2024-11-24 20:03:46.066 +02:00 [INF] Board created successfully: birthday board for UserId 33
+2024-11-24 20:03:46.072 +02:00 [INF] Loaded 1 boards for UserId 33
+2024-11-24 20:03:53.156 +02:00 [INF] Attempting to add new board with name: st nicolas day for UserId 33
+2024-11-24 20:04:06.415 +02:00 [INF] Board created successfully: st nicolas day for UserId 33
+2024-11-24 20:04:06.421 +02:00 [INF] Loaded 2 boards for UserId 33
+2024-11-24 20:04:07.731 +02:00 [INF] Board selected: 30 - st nicolas day
+2024-11-24 20:04:07.760 +02:00 [INF] Loaded 0 gifts for BoardId 30
+2024-11-24 20:04:09.264 +02:00 [INF] Board selected: 29 - birthday board
+2024-11-24 20:04:09.273 +02:00 [INF] Loaded 0 gifts for BoardId 29
+2024-11-24 20:04:11.214 +02:00 [INF] Board selected: 30 - st nicolas day
+2024-11-24 20:04:11.216 +02:00 [INF] Loaded 0 gifts for BoardId 30
+2024-11-24 20:04:12.132 +02:00 [INF] Board selected: 29 - birthday board
+2024-11-24 20:04:12.135 +02:00 [INF] Loaded 0 gifts for BoardId 29
+2024-11-24 20:04:18.029 +02:00 [INF] Attempting to add gift to BoardId 29: airpods pro
+2024-11-24 20:04:19.808 +02:00 [INF] Gift added successfully: airpods pro to BoardId 29
+2024-11-24 20:04:19.821 +02:00 [INF] Loaded 1 gifts for BoardId 29
+2024-11-24 20:04:24.376 +02:00 [INF] Attempting to add gift to BoardId 29: iphone 16
+2024-11-24 20:04:25.167 +02:00 [INF] Gift added successfully: iphone 16 to BoardId 29
+2024-11-24 20:04:25.171 +02:00 [INF] Loaded 2 gifts for BoardId 29
+2024-11-24 20:04:30.254 +02:00 [INF] Application exited

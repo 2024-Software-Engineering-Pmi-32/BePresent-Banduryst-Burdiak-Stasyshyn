@@ -1,0 +1,43 @@
+﻿<Page x:Class="bepresent_wpf.Presentation.BoardsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Boards" Height="500" Width="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0" Margin="10">
+            
+            <TextBlock Text="Boards" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+            <ListView x:Name="BoardsListView" DisplayMemberPath="name" 
+                      VerticalAlignment="Top" SelectionChanged="BoardsListView_SelectionChanged" />
+            <Button Content="Create Board" Click="AddBoardButton_Click" Margin="0,10,0,0" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Margin="10">
+            <TextBlock Text="Board Details" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Name:" FontWeight="Bold"/>
+            <TextBlock x:Name="BoardNameTextBlock" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Description:" FontWeight="Bold"/>
+            <TextBlock x:Name="BoardDescriptionTextBlock" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Celebration Date:" FontWeight="Bold"/>
+            <TextBlock x:Name="BoardCelebrationDateTextBlock" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Access Level:" FontWeight="Bold"/>
+            <TextBlock x:Name="BoardAccessLevelTextBlock" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Created At:" FontWeight="Bold"/>
+            <TextBlock x:Name="BoardCreatedAtTextBlock" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Gifts:" FontWeight="Bold" Margin="0,10,0,5"/>
+            <ListView x:Name="GiftsListView" DisplayMemberPath="name" Margin="0,0,0,10"/>
+            <Button Content="Add Gift" Click="AddGiftButton_Click" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Page>
