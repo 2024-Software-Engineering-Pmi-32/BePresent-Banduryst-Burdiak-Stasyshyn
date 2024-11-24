@@ -1,0 +1,12 @@
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\bin\Debug\net8.0\ADO.TEST.deps.json
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\bin\Debug\net8.0\ADO.TEST.dll
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\bin\Debug\net8.0\ADO.TEST.pdb
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\obj\Debug\net8.0\ADO.TEST.csproj.AssemblyReference.cache
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\obj\Debug\net8.0\ADO.TEST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\obj\Debug\net8.0\ADO.TEST.AssemblyInfoInputs.cache
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\obj\Debug\net8.0\ADO.TEST.AssemblyInfo.cs
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\obj\Debug\net8.0\ADO.TEST.csproj.CoreCompileInputs.cache
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\obj\Debug\net8.0\ADO.TEST.dll
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\obj\Debug\net8.0\refint\ADO.TEST.dll
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\obj\Debug\net8.0\ADO.TEST.pdb
+C:\Users\yulia\source\repos\ADO.TEST\ADO.TEST\obj\Debug\net8.0\ref\ADO.TEST.dll
