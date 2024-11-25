@@ -1,0 +1,252 @@
+2024-11-25 00:19:22.934 +02:00 [INF] Application started
+2024-11-25 00:20:09.054 +02:00 [INF] Application started
+2024-11-25 00:20:11.277 +02:00 [INF] LoginPage initialized.
+2024-11-25 00:20:14.458 +02:00 [DBG] UsernameTextBox text changed: U
+2024-11-25 00:20:14.798 +02:00 [DBG] UsernameTextBox text changed: Us
+2024-11-25 00:20:15.025 +02:00 [DBG] UsernameTextBox text changed: Use
+2024-11-25 00:20:15.240 +02:00 [DBG] UsernameTextBox text changed: User
+2024-11-25 00:20:15.632 +02:00 [DBG] UsernameTextBox text changed: User1
+2024-11-25 00:20:17.406 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:17.726 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:17.924 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:18.052 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:18.260 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:18.407 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:18.703 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:18.934 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:19.243 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:20.924 +02:00 [INF] Login attempt with username: User1
+2024-11-25 00:20:23.364 +02:00 [INF] User User1 successfully logged in with user ID: 1
+2024-11-25 00:20:26.177 +02:00 [INF] Initializing BoardsPage for UserId 1
+2024-11-25 00:20:26.234 +02:00 [INF] Loaded 0 boards for UserId 1
+2024-11-25 00:20:26.234 +02:00 [INF] Boards loaded successfully for UserId 1
+2024-11-25 00:20:26.234 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:20:39.908 +02:00 [INF] Attempting to add new board with name: YulianaTheBest for UserId 1
+2024-11-25 00:21:38.968 +02:00 [INF] Board created successfully: YulianaTheBest for UserId 1
+2024-11-25 00:21:38.980 +02:00 [INF] Loaded 1 boards for UserId 1
+2024-11-25 00:21:46.562 +02:00 [INF] Attempting to add new board with name: l,wdwl for UserId 1
+2024-11-25 00:21:52.713 +02:00 [ERR] Error adding new board for UserId 1
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Npgsql.PostgresException: 23514: новий рядок для відношення "boards" порушує перевірне обмеження перевірку "giftboards_access_level_check"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 942
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 973
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__44.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 306
+   at Npgsql.NpgsqlCommand.<ExecuteReaderAsync>d__102.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1189
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1059
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1035
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded) in /home/runner/work/efcore.pg/efcore.pg/src/EFCore.PG/Storage/Internal/NpgsqlExecutionStrategy.cs:line 37
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at bepresent_wpf.DAL.BoardRepository.AddBoard(Board board) in C:\Users\yulia\Desktop\Logging+Animation\DAL\BoardRepository.cs:line 18
+   at bepresent_wpf.BLL.BoardService.CreateBoard(String name, Int32 userId, Nullable`1 celebrationDate, Int32[] collaborators, String accessLevel, String description) in C:\Users\yulia\Desktop\Logging+Animation\BLL\BoardService.cs:line 30
+   at bepresent_wpf.Presentation.BoardsPage.AddBoardButton_Click(Object sender, RoutedEventArgs e) in C:\Users\yulia\Desktop\Logging+Animation\Presentation\BoardsPage.xaml.cs:line 164
+2024-11-25 00:22:00.347 +02:00 [WRN] Attempted to add a gift without selecting a board.
+2024-11-25 00:22:01.926 +02:00 [INF] Board selected: 11 - YulianaTheBest
+2024-11-25 00:22:02.077 +02:00 [INF] Loaded 0 gifts for BoardId 11
+2024-11-25 00:22:16.571 +02:00 [INF] Attempting to add gift to BoardId 11: MyHeart
+2024-11-25 00:22:30.155 +02:00 [ERR] Error adding gift to selected board.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Npgsql.PostgresException: 23514: новий рядок для відношення "boards" порушує перевірне обмеження перевірку "giftboards_access_level_check"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 942
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 973
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__44.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 306
+   at Npgsql.NpgsqlCommand.<ExecuteReaderAsync>d__102.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1189
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1059
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1035
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded) in /home/runner/work/efcore.pg/efcore.pg/src/EFCore.PG/Storage/Internal/NpgsqlExecutionStrategy.cs:line 37
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at bepresent_wpf.DAL.GiftRepository.AddGift(Gift gift) in C:\Users\yulia\Desktop\Logging+Animation\DAL\GiftRepository.cs:line 19
+   at bepresent_wpf.BLL.BoardService.AddGiftToBoard(String name, String description, Int32 boardId, String link, String imageUrl, Nullable`1 reservedBy) in C:\Users\yulia\Desktop\Logging+Animation\BLL\BoardService.cs:line 66
+   at bepresent_wpf.Presentation.BoardsPage.AddGiftButton_Click(Object sender, RoutedEventArgs e) in C:\Users\yulia\Desktop\Logging+Animation\Presentation\BoardsPage.xaml.cs:line 200
+2024-11-25 00:22:48.532 +02:00 [INF] Attempting to add gift to BoardId 11: Mu heart
+2024-11-25 00:23:02.857 +02:00 [ERR] Error adding gift to selected board.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Npgsql.PostgresException: 23514: новий рядок для відношення "boards" порушує перевірне обмеження перевірку "giftboards_access_level_check"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 942
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 973
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__44.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 306
+   at Npgsql.NpgsqlCommand.<ExecuteReaderAsync>d__102.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1189
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1059
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1035
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded) in /home/runner/work/efcore.pg/efcore.pg/src/EFCore.PG/Storage/Internal/NpgsqlExecutionStrategy.cs:line 37
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at bepresent_wpf.DAL.GiftRepository.AddGift(Gift gift) in C:\Users\yulia\Desktop\Logging+Animation\DAL\GiftRepository.cs:line 19
+   at bepresent_wpf.BLL.BoardService.AddGiftToBoard(String name, String description, Int32 boardId, String link, String imageUrl, Nullable`1 reservedBy) in C:\Users\yulia\Desktop\Logging+Animation\BLL\BoardService.cs:line 66
+   at bepresent_wpf.Presentation.BoardsPage.AddGiftButton_Click(Object sender, RoutedEventArgs e) in C:\Users\yulia\Desktop\Logging+Animation\Presentation\BoardsPage.xaml.cs:line 200
+2024-11-25 00:23:11.470 +02:00 [INF] Attempting to add gift to BoardId 11: heart
+2024-11-25 00:23:19.860 +02:00 [ERR] Error adding gift to selected board.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Npgsql.PostgresException: 23514: новий рядок для відношення "boards" порушує перевірне обмеження перевірку "giftboards_access_level_check"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 942
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 973
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__44.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 306
+   at Npgsql.NpgsqlCommand.<ExecuteReaderAsync>d__102.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1189
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1059
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1035
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded) in /home/runner/work/efcore.pg/efcore.pg/src/EFCore.PG/Storage/Internal/NpgsqlExecutionStrategy.cs:line 37
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at bepresent_wpf.DAL.GiftRepository.AddGift(Gift gift) in C:\Users\yulia\Desktop\Logging+Animation\DAL\GiftRepository.cs:line 19
+   at bepresent_wpf.BLL.BoardService.AddGiftToBoard(String name, String description, Int32 boardId, String link, String imageUrl, Nullable`1 reservedBy) in C:\Users\yulia\Desktop\Logging+Animation\BLL\BoardService.cs:line 66
+   at bepresent_wpf.Presentation.BoardsPage.AddGiftButton_Click(Object sender, RoutedEventArgs e) in C:\Users\yulia\Desktop\Logging+Animation\Presentation\BoardsPage.xaml.cs:line 200
+2024-11-25 00:23:34.374 +02:00 [INF] Attempting to add gift to BoardId 11: yulia
+2024-11-25 00:23:40.134 +02:00 [ERR] Error adding gift to selected board.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> Npgsql.PostgresException: 23514: новий рядок для відношення "boards" порушує перевірне обмеження перевірку "giftboards_access_level_check"
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 942
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass160_0.<<DoReadMessage>g__ReadMessageLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 973
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__44.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult() in C:\projects\npgsql\src\Npgsql\NpgsqlDataReader.cs:line 306
+   at Npgsql.NpgsqlCommand.<ExecuteReaderAsync>d__102.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1189
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1059
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in C:\projects\npgsql\src\Npgsql\NpgsqlCommand.cs:line 1035
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded) in /home/runner/work/efcore.pg/efcore.pg/src/EFCore.PG/Storage/Internal/NpgsqlExecutionStrategy.cs:line 37
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at bepresent_wpf.DAL.GiftRepository.AddGift(Gift gift) in C:\Users\yulia\Desktop\Logging+Animation\DAL\GiftRepository.cs:line 19
+   at bepresent_wpf.BLL.BoardService.AddGiftToBoard(String name, String description, Int32 boardId, String link, String imageUrl, Nullable`1 reservedBy) in C:\Users\yulia\Desktop\Logging+Animation\BLL\BoardService.cs:line 66
+   at bepresent_wpf.Presentation.BoardsPage.AddGiftButton_Click(Object sender, RoutedEventArgs e) in C:\Users\yulia\Desktop\Logging+Animation\Presentation\BoardsPage.xaml.cs:line 200
+2024-11-25 00:25:04.247 +02:00 [INF] Application started
+2024-11-25 00:25:07.047 +02:00 [INF] LoginPage initialized.
+2024-11-25 00:25:09.087 +02:00 [DBG] UsernameTextBox text changed: U
+2024-11-25 00:25:09.427 +02:00 [DBG] UsernameTextBox text changed: Us
+2024-11-25 00:25:09.630 +02:00 [DBG] UsernameTextBox text changed: Use
+2024-11-25 00:25:09.781 +02:00 [DBG] UsernameTextBox text changed: User
+2024-11-25 00:25:10.085 +02:00 [DBG] UsernameTextBox text changed: User1
+2024-11-25 00:25:12.072 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:12.442 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:12.644 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:12.761 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:13.205 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:13.352 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:13.782 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:14.049 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:14.422 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:15.767 +02:00 [INF] Login attempt with username: User1
+2024-11-25 00:25:17.938 +02:00 [INF] User User1 successfully logged in with user ID: 1
+2024-11-25 00:25:20.259 +02:00 [INF] Initializing BoardsPage for UserId 1
+2024-11-25 00:25:20.365 +02:00 [INF] Loaded 1 boards for UserId 1
+2024-11-25 00:25:20.365 +02:00 [INF] Boards loaded successfully for UserId 1
+2024-11-25 00:25:20.366 +02:00 [DBG] PasswordBox content changed.
+2024-11-25 00:25:22.176 +02:00 [INF] Board selected: 11 - YulianaTheBest
+2024-11-25 00:25:22.214 +02:00 [INF] Loaded 0 gifts for BoardId 11
+2024-11-25 00:25:29.325 +02:00 [INF] Attempting to add gift to BoardId 11: Heart
+2024-11-25 00:25:36.023 +02:00 [INF] Gift added successfully: Heart to BoardId 11
+2024-11-25 00:25:36.037 +02:00 [INF] Loaded 1 gifts for BoardId 11
+2024-11-25 00:26:18.162 +02:00 [WRN] Attempted to add a gift with an empty name to BoardId 11
+2024-11-25 00:26:22.683 +02:00 [WRN] Attempted to add a gift with an empty name to BoardId 11
+2024-11-25 00:26:28.509 +02:00 [INF] Application exited
+2024-11-25 02:23:55.267 +02:00 [INF] Application started
+2024-11-25 02:46:33.818 +02:00 [INF] Application started
+2024-11-25 02:46:54.151 +02:00 [INF] Application exited
